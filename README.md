@@ -14,7 +14,7 @@ Call widget() with 'application.extensions.yii-flyout-navigation.FlyoutNav' as t
 The argument array must have (at a minimum) a key named 'list' whose value is an array of the html elements you want to "fly out" from the main button and a key named 'mainButton' which is the html element of the main button.
 The argument array may also have arguments specifying flyout radius, degree for starting and ending the flyout, and the order to fly in and out (as well as any of the other arguments to the plugin.)
 
-Example use:
+	Example use:
 	$this->widget('application.extensions.flyoutnav.FlyoutNav', array(
 		'list'=>array(
 				CHtml::link(
@@ -40,5 +40,5 @@ Example use:
     );
     
     
-    You will probably want to use CSS to style your widget. An example CSS file is in the examples folder. Each individual element is stored in a <li> tag. The collection of elements is stored in a <ul> tag with the id 'flyoutNav'. The main button element has the id 'mainButton'.
+You will probably want to use CSS to style your widget. An example CSS file is in the examples folder. Each individual element is stored in a <li> tag. The collection of elements is stored in a <ul> tag with the id 'flyoutNav'. The main button element has the id 'mainButton'.
     
