@@ -40,5 +40,5 @@ The argument array may also have arguments specifying flyout radius, degree for 
     );
     
     
-You will probably want to use CSS to style your widget. An example CSS file is in the examples folder. Each individual element is stored in a <li> tag. The collection of elements is stored in a <ul> tag with the id 'flyoutNav'. The main button element has the id 'mainButton'.
+You will probably want to use CSS to style your widget. An example CSS file is in the examples folder. Each individual element is stored in a `<li>` tag. The collection of elements is stored in a `<ul>` tag with the id 'flyoutNav'. The main button element has the id 'mainButton'.
     
